@@ -5,15 +5,14 @@
 */
 
 int main(void){
-	_putchar(A);
-	_putchar(B);
-	_putchar(D);
-	_putchar(E);
-	_putchar(L);
-	_putchar(I);
-	_putchar(L);
-	_putchar(A);
-	_putchar(H);
+	_putchar(_);
+	_putchar(p);
+	_putchar(u);
+	_putchar(t);
+	_putchar(c);
+	_putchar(h);
+	_putchar(a);
+	_putchar(r);
 	_putchar(\n:);
 return(0);
 }
