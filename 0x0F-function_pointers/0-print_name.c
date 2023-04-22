@@ -6,12 +6,13 @@
 	 * @f: pointer to function
 	 * Return: nothing
 	 **/
-	void print_name(char *name, void (*_putchar)(char *))
+	void print_name(char *name, void (*f)(char *))
 	{
-		if (name == NULL || _putchar == NULL){
+		if (name == NULL || f == NULL){
 			return;}
 		else{
-		_putchar(name);
+		(*f)(name);
+		printf("\n");
 		}
 	}
 
