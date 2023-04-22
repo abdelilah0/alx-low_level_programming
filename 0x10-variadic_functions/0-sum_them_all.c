@@ -15,7 +15,6 @@
 		va_list ap;
 		unsigned int i, sum = 0;
 
-		if(n != 0){
 		va_start(ap, m);
 
 		for (i = 0; i < m; i++)
@@ -23,7 +22,6 @@
 
 
 		va_end(ap);
-		}else{ return 0;}
 
 		return (sum);
 	}
