@@ -12,7 +12,6 @@
 			return;}
 		else{
 		(*f)(name);
-		printf("\n");
 		}
 	}
 
